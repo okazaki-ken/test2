@@ -1,0 +1,51 @@
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 20px 0;
+}
+
+.main_header__title{
+    margin: 0 10px;
+}
+
+.main_header__button {
+    margin: 0 10px;
+    background-color: #ff9100;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.content {
+    display: flex;
+    margin: 10px;
+}
+
+.content_search {
+    width: 240px;
+}
+
+.content_search__input {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.content_search__button {
+    background-color: #f5c800;
+    text-align: center;
+    width: 80%;
+}
+
+.content_products {
+    display: flex;
+    font-display: row;
+    flex:1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 240px;
+    margin: 100px auto 0;
+    box-shadow: 0px 3px 8px #000;
+}
